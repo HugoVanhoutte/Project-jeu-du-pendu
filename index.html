@@ -11,12 +11,10 @@
     <input type="button" id="newGame" value="Nouvelle Partie">
     <input type="text" maxlength="1" minlength="1" id="userInput">
     <input type="button" id="button" value ="Valider">
-    <label for="easy">Easy</label>
-    <input type="radio" name="dif" id="easy" value="easy">
-    <label for="normal">Normal</label>
-    <input type="radio" name="dif" id="normal" value="normal">
-    <label for="hard">Hard</label>
-    <input type="radio" name="dif" id="hard" value ="hard">
+    <label for="dif">Difficulty: </label>
+    <input type="range" name="dif" id="dif" min="1" max="30">
+    <p id="difDisplay"></p>
+    <p id="result"></p>
     <script src="app.js"></script>
     </body>
 </html>
